@@ -26,6 +26,7 @@ public class TaskArrayAdapter extends ArrayAdapter<Task> {
         tasks = objects;
         this.context = context;
     }
+    //
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
